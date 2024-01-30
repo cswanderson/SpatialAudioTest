@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 443570452}
   - component: {fileID: 443570453}
   m_Layer: 0
-  m_Name: 5
+  m_Name: Middle Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 498629932}
   - component: {fileID: 498629933}
   m_Layer: 0
-  m_Name: 7
+  m_Name: Rear Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 570792946}
   - component: {fileID: 570792947}
   m_Layer: 0
-  m_Name: 4
+  m_Name: SubWoofer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -695,16 +695,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e43b08bcb0e9a8949b6dc46eb1432e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stagger: 0
+  stagger: 1
   sources:
-  - {fileID: 2034532639}
-  - {fileID: 1634008300}
-  - {fileID: 2081092537}
-  - {fileID: 570792946}
-  - {fileID: 443570452}
-  - {fileID: 1294605121}
-  - {fileID: 498629932}
-  - {fileID: 2024279202}
+  - {fileID: 2034532640}
+  - {fileID: 1634008301}
+  - {fileID: 2081092538}
+  - {fileID: 498629933}
+  - {fileID: 2024279203}
+  - {fileID: 443570453}
+  - {fileID: 1294605122}
+  - {fileID: 570792947}
 --- !u!1 &789680731
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,7 +915,7 @@ GameObject:
   - component: {fileID: 1294605121}
   - component: {fileID: 1294605122}
   m_Layer: 0
-  m_Name: 6
+  m_Name: Middle Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 1634008300}
   - component: {fileID: 1634008301}
   m_Layer: 0
-  m_Name: 2
+  m_Name: Front Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 2024279202}
   - component: {fileID: 2024279203}
   m_Layer: 0
-  m_Name: 8
+  m_Name: Rear Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 2034532639}
   - component: {fileID: 2034532640}
   m_Layer: 0
-  m_Name: 1
+  m_Name: Front Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1591,7 +1591,7 @@ GameObject:
   - component: {fileID: 2081092537}
   - component: {fileID: 2081092538}
   m_Layer: 0
-  m_Name: 3
+  m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
