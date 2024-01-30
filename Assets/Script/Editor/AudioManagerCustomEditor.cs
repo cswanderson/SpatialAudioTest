@@ -15,35 +15,35 @@ namespace UnityLibrary
                 manager.TriggerAllSources();
             }
             EditorGUILayout.Space();
-            if (GUILayout.Button("Play 1"))
+            if (GUILayout.Button("Play Front Left"))
             {
                 manager.TriggerSource(1);
             }
-            if (GUILayout.Button("Play 2"))
+            if (GUILayout.Button("Play Front Right"))
             {
                 manager.TriggerSource(2);
             }
-            if (GUILayout.Button("Play 3"))
+            if (GUILayout.Button("Play Center"))
             {
                 manager.TriggerSource(3);
             }
-            if (GUILayout.Button("Play 4"))
+            if (GUILayout.Button("Play Rear Left"))
             {
                 manager.TriggerSource(4);
             }
-            if (GUILayout.Button("Play 5"))
+            if (GUILayout.Button("Play Rear Right"))
             {
                 manager.TriggerSource(5);
             }
-            if (GUILayout.Button("Play 6"))
+            if (GUILayout.Button("Play Middle Left"))
             {
                 manager.TriggerSource(6);
             }
-            if (GUILayout.Button("Play 7"))
+            if (GUILayout.Button("Play Middle Right"))
             {
                 manager.TriggerSource(7);
             }
-            if (GUILayout.Button("Play 8"))
+            if (GUILayout.Button("Play Subwoofer"))
             {
                 manager.TriggerSource(8);
             }

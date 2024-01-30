@@ -675,11 +675,11 @@ Transform:
   - {fileID: 2034532638}
   - {fileID: 1634008299}
   - {fileID: 2081092536}
-  - {fileID: 570792945}
-  - {fileID: 443570451}
-  - {fileID: 1294605120}
   - {fileID: 498629931}
   - {fileID: 2024279201}
+  - {fileID: 443570451}
+  - {fileID: 1294605120}
+  - {fileID: 570792945}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
