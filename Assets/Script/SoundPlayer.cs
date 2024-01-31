@@ -6,14 +6,9 @@ public class SoundPlayer : MonoBehaviour
 {
     [SerializeField] private AudioClip clip;
 
-    private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSource;
 
-    private void Awake()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
-
-    public void PlayClip(float delay = 0)
+    public void PlayClip(float delay = 0.01f)
     {
         StartCoroutine(PlayWithDelay(delay));
     }
