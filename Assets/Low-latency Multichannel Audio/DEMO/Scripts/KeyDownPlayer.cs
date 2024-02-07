@@ -68,62 +68,37 @@ namespace LowLatencyMultichannelAudio.DEMO
             if (Input.GetKeyDown(KeyCode.Alpha3))
                 AudioManager.Asio.Play(
                     soundID: 3,
-                    outChannels: new uint[] { 2 });
-
-            if (Input.GetKeyDown(KeyCode.Alpha4))
-                AudioManager.Asio.Play(
-                    soundID: 1,
-                    outChannels: new uint[] { 3 });
-
-            if (Input.GetKeyDown(KeyCode.Alpha5))
-                AudioManager.Asio.Play(
-                    soundID: 2,
-                    outChannels: new uint[] { 4 });
-        
-            if (Input.GetKeyDown(KeyCode.Alpha6))
-                AudioManager.Asio.Play(
-                    soundID: 2,
-                    outChannels: new uint[] { 5 });
-
-            if (Input.GetKeyDown(KeyCode.Alpha7))
-                AudioManager.Asio.Play(
-                    soundID: 2,
-                    outChannels: new uint[] { 6 });
-
-            if (Input.GetKeyDown(KeyCode.Alpha8))
-                AudioManager.Asio.Play(
-                    soundID: 2,
-                    outChannels: new uint[] { 7 });
+                    outChannels: new uint[] { 0, 1 });
 
             /* B. play looping, 1s fade */
-            /* if (Input.GetKeyDown(KeyCode.Alpha4))
-             {
-                 SoundStream?.Stop(fadeSec: 0);
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                SoundStream?.Stop(fadeSec: 0);
 
-                 SoundStream = AudioManager.Asio.Play(
-                     soundID: 4,
-                     outChannels: new uint[] { 0, 1 },
-                     volume: Volume,
-                     fadeSec: 1.0f,
-                     looping: true);
+                SoundStream = AudioManager.Asio.Play(
+                    soundID: 4,
+                    outChannels: new uint[] { 0, 1 },
+                    volume: Volume,
+                    fadeSec: 1.0f,
+                    looping: true);
 
-                 // getting total time position
-                 var totalTime = SoundStream.GetTotalTime();
-                 Text_TimeLength.text = totalTime.ToString("F2");
-                 Slider_TimePosition.maxValue = totalTime;
-             }
-             UpdateTimeInfo();
+                // getting total time position
+                var totalTime = SoundStream.GetTotalTime();
+                Text_TimeLength.text = totalTime.ToString("F2");
+                Slider_TimePosition.maxValue = totalTime;
+            }
+            UpdateTimeInfo();
 
-             if (Input.GetKeyDown(KeyCode.Alpha5))
-                 SoundStream.Pause(fadeSec: 0);
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+                SoundStream.Pause(fadeSec: 0);
 
-             if (Input.GetKeyDown(KeyCode.Alpha6))
-                 SoundStream.Resume(fadeSec: 0);
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+                SoundStream.Resume(fadeSec: 0);
 
-             if (Input.GetKeyDown(KeyCode.Alpha7))
-                 SoundStream.Stop(fadeSec: 1.0f);
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+                SoundStream.Stop(fadeSec: 1.0f);
 
-             /* C. stop all */
+            /* C. stop all */
             if (Input.GetKeyDown(KeyCode.Space))
                 AudioManager.Asio.StopAll();
         }
