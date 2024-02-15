@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 167092687}
-  - component: {fileID: 167092686}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -140,27 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &167092686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167092685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f8395cf566c9a542b539cd19584c263, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DeviceName: ASIO4ALL v2
-  ChannelCount: 8
-  Sound:
-    SearchDirectory: Assets/Low-latency Multichannel Audio/DEMO/Resources
-    Files:
-    - Assets/Low-latency Multichannel Audio/DEMO/Resources/1_C.wav
-    - Assets/Low-latency Multichannel Audio/DEMO/Resources/2_D.wav
-    - Assets/Low-latency Multichannel Audio/DEMO/Resources/3_E.wav
-    - Assets/Low-latency Multichannel Audio/DEMO/Resources/4_CtoB.wav
 --- !u!4 &167092687
 Transform:
   m_ObjectHideFlags: 0
@@ -221,7 +199,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -364,7 +342,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -507,7 +485,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1132,7 +1110,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1275,7 +1253,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1526,7 +1504,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1669,7 +1647,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1812,7 +1790,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 909b48e93df0cf24ba8729cd85c602d4, type: 2}
   m_audioClip: {fileID: 8300000, guid: dbbdebc3d2110fa4bb3b3e8fdb0c69ae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.398
+  m_Volume: 0.688
   m_Pitch: 1
   Loop: 0
   Mute: 0
